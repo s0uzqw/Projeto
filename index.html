@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Spotify</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" href="https://wwwmarketing.scdn.co/img/favicon-96x96.png" type="image/x-icon">
+  
+</head>
+
+<body>
+  <header class="cabecalho">
+
+    <img src="/imagens/spotify-logo.png">
+
+    <div class="premium"><a href="https://www.spotify.com/br/premium/">Premium</a>
+    </div>
+
+    <div class="sup">
+      <a
+        href="https://support.spotify.com/br/?_gl=1*s7v50*_gcl_aw*R0NMLjE2NjgxNzgyNjMuQ2owS0NRaUFncmliQmhEa0FSSXNBQVNBNWJ1Z0o1YmpkaHZnQUlIbTR0dVM1a0tzYmNxa1FOZUZjZk0xTW5OandTUXkzOVFXWDh4RDktOGFBdTd5RUFMd193Y0I.*_gcl_dc*R0NMLjE2NjgxNzgyNjMuQ2owS0NRaUFncmliQmhEa0FSSXNBQVNBNWJ1Z0o1YmpkaHZnQUlIbTR0dVM1a0tzYmNxa1FOZUZjZk0xTW5OandTUXkzOVFXWDh4RDktOGFBdTd5RUFMd193Y0I.">Suporte</a>
+    </div>
+
+    <div class="baixar">
+      <a href="https://www.spotify.com/br/download/windows/">Baixar</a>
+    </div>
+
+    <div class="barra">|
+    </div>
+
+    <button onclick="abrirImagem()" id="cadastrar">
+      Inscrever-se
+      <span onclick="clicarSair()"></span>
+    </button>
+
+    <button onclick="clicar()" id="entrar">
+      Entrar
+      <span onclick="SairClicar()"></span>
+    </button>
+  </header>
+
+  <section class="bg">
+    <h1>Escolha sua oferta: 2 meses grátis ou pelo preço de 1</h1>
+
+    <h2>Assine e ganhe 2 meses grátis, ou escolha o plano pré‑pago e tenha 2 meses pelo preço de 1.</h2>
+
+    <div class="comecar">
+      <b>2 MESES GRÁTIS</a>
+    </div>
+    <div class="dois-por-um" onclick="scrollToPlanos()">
+      <b>VER PLANOS</b>
+    </div>
+    <div class="pra-texto">
+      <p><a href="https://www.spotify.com/br/legal/premium-promotional-offer-terms/"><ins><b>Sujeito a Termos e
+              Condições.</b></a></ins> Apenas para usuários que nunca tiveram o Premium. Oferta do plano pré‑pago válida
+        para o plano Individual de um mês. Para a oferta de assinatura, o valor da mensalidade atual será cobrado depois
+        do período de teste.</p>
+    </div>
+
+    <div class="serpremium">
+      <img src="/imagens/pqserpremium.png">
+    </div>
+
+    <div class="fundo-cinza">
+
+    </div>
+    <div class="escolha">
+      <b>Escolha seu plano Premium</b>
+      <p>Ouça sem limites no seu celular, alto-falante e em outros dispositivos.</p>
+    </div>
+    <div class="visa">
+
+    </div>
+    <div class="master">
+
+    </div>
+    <div class="amex">
+
+    </div>
+    <div class="elo">
+
+    </div>
+    <div class="hiper">
+
+    </div>
+    <div onmouseover="mouseOver()" class="outros" id="amendoim">
+      <span onmouseleave="mouseSair()">+outros 11</span>
+    </div>
+    <div class="planos">
+      <img class="planos" src="/imagens/planos.png">
+    </div>
+
+  </section>
+  <footer class="rodape">
+    <div class="rdp">
+      <img src="/imagens/rodape.png">
+    </div>
+  </footer>
+</body>
+<script src="script.js"> </script>
+</html>
